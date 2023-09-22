@@ -21,10 +21,10 @@ Este repositório está organizado de forma a facilitar o acesso e o gerenciamen
 #### Como Contribuir
 Se você é um aluno do curso Talento Cloud Pro e deseja contribuir com suas soluções para as atividades e exercícios, siga estas etapas:
 
-Faça um fork deste repositório para a sua conta do GitHub.
-Clone o seu fork para o seu ambiente local.
-Crie uma nova branch para trabalhar nas suas soluções (por exemplo, minhas-solucoes).
-Adicione seus arquivos de solução no diretório apropriado (atividades ou exercícios).
-Faça commit das suas alterações na sua branch.
-Envie um pull request para este repositório, descrevendo suas contribuições.
-Lembre-se de seguir as melhores práticas de nomeação de arquivos e fornecer instruções claras, quando necessário, para que outros alunos possam entender suas soluções.
+* Faça um fork deste repositório para a sua conta do GitHub.
+* Clone o seu fork para o seu ambiente local.
+* Crie uma nova branch para trabalhar nas suas soluções (por exemplo, minhas-solucoes).
+* Adicione seus arquivos de solução no diretório apropriado (atividades ou exercícios).
+* Faça commit das suas alterações na sua branch.
+* Envie um pull request para este repositório, descrevendo suas contribuições.
+* Lembre-se de seguir as melhores práticas de nomeação de arquivos e fornecer instruções claras, quando necessário, para que outros alunos possam entender suas soluções.
