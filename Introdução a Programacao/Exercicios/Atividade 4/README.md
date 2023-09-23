@@ -1,44 +1,23 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--config-env=<name>=<envvar>] <command> [<args>]
+# Calculadora de Dois Números
 
-These are common Git commands used in various situations:
+Bem-vindo à Calculadora de Dois Números! Este é um projeto simples que permite realizar quatro operações matemáticas básicas (soma, subtração, multiplicação e divisão) entre dois números, com base na entrada do usuário.
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
+## Funcionalidades
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
+- **Soma**: Realiza a adição dos dois números.
+- **Subtração**: Realiza a subtração do primeiro número pelo segundo.
+- **Multiplicação**: Realiza a multiplicação dos dois números.
+- **Divisão**: Realiza a divisão do primeiro número pelo segundo. Certifique-se de não tentar dividir por zero, pois isso resultará em um erro.
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+## Como Usar
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
+1. Execute o programa.
+2. Insira o primeiro número da operação.
+3. Insira o segundo número.
+4. Escolha a operação que deseja realizar com os números definidos (1 para Soma, 2 para Subtração, 3 para Multiplicação, 4 para Divisão).
+5. O programa calculará o resultado com base na operação escolhida e exibirá o resultado na tela.
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
+Caso você insira um número de operação que não corresponda a nenhuma das quatro operações definidas, o resultado será 0.
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+- Python (este programa foi desenvolvido em Python 3).
+
