@@ -1,6 +1,6 @@
-CREATE DATABASE Yougioh
+CREATE DATABASE Yugioh
 
-USE DATABASE Yougioh
+USE DATABASE Yugioh
 
 CREATE TABLE Players (
     id_player INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -18,9 +18,12 @@ CREATE TABLE Cards (
 
 INSERT INTO Players(name_player, age_player) values ('Yougi', 15);
 INSERT INTO Players(name_player, age_player) values ('Kaiba', 18);
+INSERT INTO Players(name_player, age_player) values ('Pegasus', 24);
+
 
 INSERT INTO Cards(name_card, id_player) values ('Mago Negro', 1);
 INSERT INTO Cards(name_card, id_player) values ('Dragão Branco de Olhos Azuis', 2);
+INSERT INTO Cards(name_card, id_player) values ('Obelisco', 3);
 
 SELECT name_player, name_card FROM Cards
 RIGHT JOIN Players
